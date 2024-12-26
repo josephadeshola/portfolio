@@ -20,7 +20,7 @@ const Home = () => {
   ];
 
   return (
-    <div>
+    <div className="top-0">
       <section className="home">
         <div className="md:flex text-center md:text-start justify-between mt-20 mx-auto md:px-14 ">
           <div className="mt-4">
@@ -46,7 +46,7 @@ const Home = () => {
               <div className="border mx-auto h-80 w-80 rounded-full border-yellow-300">
                 <img
                   className="object-cover h-80 w-80 rounded-full mx-auto"
-                  src="src/assets/WhatsApp Image 2024-04-12 at 9.26.36 AM.jpeg"
+                  src="src\assets\myimage.jpeg"
                   alt=""
                 />
               </div>
