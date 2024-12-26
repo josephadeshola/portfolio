@@ -92,7 +92,7 @@ const Contact = () => {
         </p>
         <ul className="mt-4 space-y-2">
           <li>
-            Email:{" "}
+            Email:
             <a href="josephay125d@gmail.com" className="text-yellow-500">
               your-email@example.com
             </a>
@@ -101,7 +101,7 @@ const Contact = () => {
             Phone: <span className="text-yellow-500">+234 8069697526</span>
           </li>
           <li>
-            LinkedIn:{" "}
+            LinkedIn:
             <a
               href="https://www.linkedin.com/in/ayomide-a-5a4549252/"
               className="text-yellow-500"
@@ -112,7 +112,7 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            GitHub:{" "}
+            GitHub:
             <a
               href="https://github.com/josephadeshola"
               className="text-yellow-500"

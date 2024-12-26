@@ -1,0 +1,19 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: #facc15; 
+  transform: scale(1.2); 
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #fbbf24;
+  
+}
+
+.swiper-button-next {
+  right: 10px; 
+}
+
+.swiper-button-prev {
+  left: 10px; 
+}
