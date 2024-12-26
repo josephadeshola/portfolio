@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import image from "../assets/myimage.jpeg";
 const Home = () => {
   
   const progressData = [
@@ -46,7 +46,7 @@ const Home = () => {
               <div className="border mx-auto h-80 w-80 rounded-full border-yellow-300">
                 <img
                   className="object-cover h-80 w-80 rounded-full mx-auto"
-                  src="src\assets\myimage.jpeg"
+                  src={image}
                   alt=""
                 />
               </div>
