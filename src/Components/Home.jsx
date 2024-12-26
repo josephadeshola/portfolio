@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import image from "../assets/myimage.jpeg";
+import aboutImage from "../assets/b14442d7-1158-4a88-aecf-a21cacea1653.jpeg";
 const Home = () => {
   
   const progressData = [
@@ -59,7 +60,7 @@ const Home = () => {
           <div className="w-full lock hidden md:w-1/2 md:flex justify-center">
             <img
               className="w-80 h-80 object-cover rounded-lg shadow-md"
-              src="src/assets/b14442d7-1158-4a88-aecf-a21cacea1653.jpeg"
+              src={aboutImage}
               alt="Profile"
             />
           </div>
