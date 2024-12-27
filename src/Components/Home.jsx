@@ -55,7 +55,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="about md:px-14 py-14">
+      <section className="about md:px-14  py-14">
         <div className="flex flex-col md:flex-row items-center justify-between animate-pulse shadow gap-10 border border-yellow-300 p-6 rounded-lg">
           <div className="w-full lock hidden md:w-1/2 md:flex justify-center">
             <img
@@ -68,7 +68,7 @@ const Home = () => {
             <p className="text-8xl font-extrabold text-gray-900 absolute -top-10 left-0 opacity-60">
               About
             </p>
-            <div className="p-6 rounded-lg relative z-10">
+            <div className=" rounded-lg relative z-10">
               <h2 className="text-3xl font-bold mb-4 whitespace-nowrap dark:text-white">
                 About Me
               </h2>
@@ -86,13 +86,13 @@ const Home = () => {
           <div className="w-full md:hidden md:w-1/2 flex justify-center">
             <img
               className="w-80 h-80 object-cover rounded-lg shadow-md"
-              src="src/assets/b14442d7-1158-4a88-aecf-a21cacea1653.jpeg"
+              src={aboutImage}
               alt="Profile"
             />
           </div>
         </div>
       </section>
-      {/* <section className="skills px-14 md:py-14 py-7">
+      <section className="skills md:px-14 px-4 md:py-14 py-7">
         <div className="w-full relative">
           <p className="text-9xl text-center font-extrabold text-gray-900 absolute left-0 right-0 opacity-60">
             Skills
@@ -126,7 +126,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 };
