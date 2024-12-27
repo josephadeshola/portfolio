@@ -92,25 +92,25 @@ const Project = () => {
   };
 
   return (
-    <div className="p-6 h-screen">
+    <div className="p-6 mt-16 h-screen">
       {/* Category Navigation */}
-      <div className="flex justify-center space-x-4 mb-6">
+      <div className="flex justify-center mt-10 space-x-4 mb-6">
         <button
           onClick={() => handleCategoryChange("newProjects")}
-          className={`py-2 px-4 rounded-sm ${
+          className={`py-2 px-4 text-sm rounded-md ${
             activeCategory === "newProjects"
               ? "bg-yellow-300 text-white"
               : "bg-gray-200 text-gray-800"
           }`}
         >
-          <div className="flex justify-between">
+          <div className="flex text-sm justify-between">
             <p> New Projects </p>
             <MdNewLabel className="mt-1 ms-3" />
           </div>
         </button>
         <button
           onClick={() => handleCategoryChange("currentProjects")}
-          className={`py-2 px-4 rounded-sm ${
+          className={`py-2 px-4 text-sm rounded-md ${
             activeCategory === "currentProjects"
               ? "bg-yellow-300 text-white"
               : "bg-gray-200 text-gray-800"
@@ -123,7 +123,7 @@ const Project = () => {
         </button>
         <button
           onClick={() => handleCategoryChange("oldProjects")}
-          className={`py-2 px-4 rounded-sm ${
+          className={`py-2 px-4 text-sm rounded-md ${
             activeCategory === "oldProjects"
               ? "bg-yellow-300 text-white"
               : "bg-gray-200 text-gray-800"
@@ -148,7 +148,7 @@ const Project = () => {
 
       
 
-<div id="controls-carousel" class="relative w-full" data-carousel="static">
+<div id="controls-carousel" class="relative w-1/2 mx-auto rounded-md mt-10" data-carousel="static">
     
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
        
