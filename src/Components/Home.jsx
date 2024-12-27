@@ -26,7 +26,7 @@ const Home = () => {
         <div className="md:flex text-center md:text-start justify-between mt-20 mx-auto md:px-14 ">
           <div className="mt-4">
             <p className=" md:text-yellow-300 text-xl">Hello</p>
-            <span className="borde text-6xl font-bold border-red-500 w-1/2">
+            <span className="borde md:text-6xl font-bold border-red-500 w-1/2">
               I'm
               <span className="ms-3 md:text-yellow-300 animate-textChange">
                 Adeshola <br /> Ayomide
@@ -43,10 +43,10 @@ const Home = () => {
             </div>
           </div>
           <div className="md:w-1/2 md:mt-5 mt-10">
-            <div className="mx-auto  h-96 bg-yellow-300 w-96 rounded-full animate-colorChange">
-              <div className="border mx-auto h-80 w-80 rounded-full border-yellow-300">
+            <div className="mx-auto  md:h-96 bg-yellow-300 md:w-96 h-72 w-72 rounded-full animate-colorChange">
+              <div className="border mx-auto md:h-80 md:w-80 h-60 w-60 rounded-full border-yellow-300">
                 <img
-                  className="object-cover h-80 w-80 rounded-full mx-auto"
+                  className="object-cover md:h-80 md:w-80 h-60 w-60 rounded-full mx-auto"
                   src={image}
                   alt=""
                 />
