@@ -55,7 +55,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <section className="about md:px-14 py-14">
+      <section className="about md:px-14 py-14">
         <div className="flex flex-col md:flex-row items-center justify-between animate-pulse shadow gap-10 border border-yellow-300 p-6 rounded-lg">
           <div className="w-full lock hidden md:w-1/2 md:flex justify-center">
             <img
@@ -91,7 +91,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </section> */}
+      </section>
       {/* <section className="skills px-14 md:py-14 py-7">
         <div className="w-full relative">
           <p className="text-9xl text-center font-extrabold text-gray-900 absolute left-0 right-0 opacity-60">
