@@ -26,13 +26,13 @@ const Home = () => {
         <div className="md:flex text-center md:text-start justify-between mt-20 mx-auto md:px-14 ">
           <div className="mt-4">
             <p className=" md:text-yellow-300 text-xl">Hello</p>
-            <span className="borde md:text-6xl font-bold border-red-500 w-1/2">
+            <span className="borde md:text-6xl text-4xl font-bold border-red-500 w-1/2">
               I'm
               <span className="ms-3 md:text-yellow-300 animate-textChange">
                 Adeshola <br /> Ayomide
               </span>
             </span>
-            <p className="text-2xl py-4">Fullstack Web Developer</p>
+            <p className="md:text-2xl text-md py-4">Fullstack Web Developer</p>
             <div className="gap-3 justify-center md:justify-start flex">
               <button className="py-3 px-7 rounded-full bg-yellow-300 text-black text-md font-semibold">
                 My Project
@@ -55,7 +55,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="about  md:px-14 py-14">
+      {/* <section className="about md:px-14 py-14">
         <div className="flex flex-col md:flex-row items-center justify-between animate-pulse shadow gap-10 border border-yellow-300 p-6 rounded-lg">
           <div className="w-full lock hidden md:w-1/2 md:flex justify-center">
             <img
@@ -91,7 +91,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="skills px-14 md:py-14 py-7">
         <div className="w-full relative">
           <p className="text-9xl text-center font-extrabold text-gray-900 absolute left-0 right-0 opacity-60">
