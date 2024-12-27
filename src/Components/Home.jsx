@@ -92,7 +92,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-      <section className="skills px-14 md:py-14 py-7">
+      {/* <section className="skills px-14 md:py-14 py-7">
         <div className="w-full relative">
           <p className="text-9xl text-center font-extrabold text-gray-900 absolute left-0 right-0 opacity-60">
             Skills
@@ -126,7 +126,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
