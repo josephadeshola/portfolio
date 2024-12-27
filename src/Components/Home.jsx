@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import image from "../assets/myimage.jpeg";
 import aboutImage from "../assets/b14442d7-1158-4a88-aecf-a21cacea1653.jpeg";
+import { Link } from "react-router-dom";
 const Home = () => {
-  
   const progressData = [
     { skill: "HTML", value: 95 },
     { skill: "CSS", value: 90 },
@@ -21,7 +21,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="top-0">
+    <div className="pt-16">
       <section className="home">
         <div className="md:flex text-center md:text-start justify-between mt-20 mx-auto md:px-14 ">
           <div className="mt-4">
@@ -35,10 +35,10 @@ const Home = () => {
             <p className="md:text-2xl text-md py-4">Fullstack Web Developer</p>
             <div className="gap-3 justify-center md:justify-start flex">
               <button className="py-3 px-7 rounded-full bg-yellow-300 text-black text-md font-semibold">
-                My Project
+                <Link to="/project">My Project</Link>
               </button>
               <button className="py-3 px-7 text-md font-semibol border rounded-full">
-                My Github
+                <Link to="/project">My Github</Link>
               </button>
             </div>
           </div>

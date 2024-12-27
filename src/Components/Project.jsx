@@ -137,7 +137,7 @@ const Project = () => {
       </div>
 
       {/* Carousel for Projects */}
-      <div className="w-1/2 mx-auto h-96">
+      <div className="md:w-1/2 w-full mx-auto md:h-96">
         {activeCategory === "newProjects" &&
           renderProjectsCarousel(projects.newProjects)}
         {activeCategory === "currentProjects" &&
