@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import image from "../assets/myimage.jpeg";
 import aboutImage from "../assets/b14442d7-1158-4a88-aecf-a21cacea1653.jpeg";
 import { Link } from "react-router-dom";
+import { FaArrowAltCircleUp } from "react-icons/fa";
+
 const Home = () => {
+  const [showScroll, setShowScroll] = useState(false);
+
   const progressData = [
     { skill: "HTML", value: 95 },
     { skill: "CSS", value: 90 },
@@ -19,6 +23,27 @@ const Home = () => {
     { skill: "JAVA/C++", value: 70 },
     { skill: "DATABASE MANAGEMENT", value: 85 },
   ];
+  const handleScroll = () => {
+    if (window.scrollY > 300) {
+      setShowScroll(true);
+    } else {
+      setShowScroll(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="pt-16">
@@ -127,6 +152,24 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <div className="bg-yellow-500 text-white animate-pulse text-center py-4">
+        <p>© 2024 Joseph Ay. All Rights Reserved.</p>
+        <p>
+          Email:{" "}
+          <a href="mailto:josephay125d@gmail.com" className="underline">
+            josephay125d@gmail.com
+          </a>
+        </p>
+      </div>
+      {showScroll && (
+        <button
+          className="fixed bottom-4 right-4 bg-yellow-500 text-white p-3 rounded-full shadow-md hover:bg-yellow-600 transition-all duration-300"
+          onClick={scrollToTop}
+          aria-label="Scroll to top"
+        >
+          <FaArrowAltCircleUp size={20} />
+        </button>
+      )}
     </div>
   );
 };
