@@ -45,6 +45,11 @@ const Home = () => {
     };
   }, []);
 
+  const gitHubTab =()=>{
+    const githubLink = "https://github.com/josephadeshola"
+    window.open(githubLink, "_black" )
+  }
+
   return (
     <div className="pt-16">
       <section className="home">
@@ -63,7 +68,7 @@ const Home = () => {
                 <Link to="/project">My Project</Link>
               </button>
               <button className="py-3 px-7 text-md font-semibol border rounded-full">
-                <Link to="/project">My Github</Link>
+                <Link onClick={gitHubTab}>My Github</Link>
               </button>
             </div>
           </div>
