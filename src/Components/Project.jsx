@@ -4,34 +4,34 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { MdNewLabel, MdStayCurrentPortrait } from "react-icons/md";
 import { GiColdHeart } from "react-icons/gi";
-import image from "../assets/Screenshot 2023-06-24 141008.png"
 import "swiper/css";
 import "swiper/css/navigation";
 import "../../src/Project.css";
+import ProjectImages from "../../ProjectImages";
 
 const projects = {
   newProjects: [
     {
-      img:"src/assets/Foodieorder.png",
+      img:ProjectImages.foodieOrder,
       title: "Foodie Order",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       link: "https://my-restaurant-three.vercel.app/",
     },
     {
-      img:"src/assets/joblist.png",
+      img:"../assets/joblist.png",
       title: "Job Listing Application",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       link: "https://joblisting-project.vercel.app/",
     },
     {
-        img:"src/assets/musicapp.png",
+        img:"../assets/musicapp.png",
       title: "Music Application",
       description:
         "Dolorum autem eos, blanditiis praesentium sunt exercitationem.",
       link: "https://drc-music-app-vutw.vercel.app/",
     },
     {
-        img:"src/assets/bookyourstay.png",
+        img:"../assets/bookyourstay.png",
       title: "Hotel Booking Application",
       description:
         "Dolorum autem eos, blanditiis praesentium sunt exercitationem.",
@@ -40,42 +40,42 @@ const projects = {
   ],
   oldProjects: [
     {
-        img:"src/assets/switchrisk.png",
+        img:"../assets/switchrisk.png",
       title: "switchrisk",
       description:
         "Perspiciatis, magnam blanditiis quaerat eveniet in reiciendis.",
       link: "https://switch-risk.vercel.app/",
     },
     {
-        img:"src/assets/weatherapp.png",
+        img:"../assets/weatherapp.png",
       title: "Weather Application",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
       link: "https://weatherapp-two-eta.vercel.app/",
     },
     {
-        img:"src/assets/Screenshot 2024-12-27 153916.png",
+        img:"../assets/Screenshot 2024-12-27 153916.png",
       title: "Vans Life",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
       link: "https://react-test-tau-five.vercel.app/",
     },
     {
-        img:"src/assets/hyra.png",
+        img:"../assets/hyra.png",
       title: "Hyra",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
       link: "https://hyra-tau.vercel.app/",
     },
     {
-        img:"src/assets/crown.png",
+        img:"../assets/crown.png",
       title: "Crown Wealth Institute",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
       link: "https://angular-text-tz1j.vercel.app/",
     },
     {
-        img:"src/assets/recipes.png",
+        img:"../assets/recipes.png",
       title: "Recipies",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
@@ -84,7 +84,7 @@ const projects = {
   ],
   currentProjects: [
     {
-        img:"src/assets/socialSync.png",
+        img:"../assets/socialSync.png",
       title: "SocialSync ",
       description:
         "SocialSync for post and contenting scheduling",
