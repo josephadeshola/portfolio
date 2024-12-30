@@ -75,7 +75,7 @@ const Navbar = () => {
                   to="/"
                   className={`block py-2 px-3 rounded md:p-0 ${
                     isDarkMode
-                      ? 'hover:bg-gray-700 hover:text-white'
+                      ? 'hover:text-white'
                       : 'hover:bg-gray-100 hover:text-blue-700'
                   }`}
                 >
@@ -87,7 +87,7 @@ const Navbar = () => {
                   to="/project"
                   className={`block py-2 px-3 rounded md:p-0 ${
                     isDarkMode
-                      ? 'hover:bg-gray-700 hover:text-white'
+                      ? 'hover:text-white'
                       : 'hover:bg-gray-100 hover:text-blue-700'
                   }`}
                 >
@@ -99,7 +99,7 @@ const Navbar = () => {
                   href="#"
                   className={`block py-2 px-3 rounded md:p-0 ${
                     isDarkMode
-                      ? 'hover:bg-gray-700 hover:text-white'
+                      ? 'hover:text-white'
                       : 'hover:bg-gray-100 hover:text-blue-700'
                   }`}
                 >
@@ -111,7 +111,7 @@ const Navbar = () => {
                   to="/contact"
                   className={`block py-2 px-3 rounded md:p-0 ${
                     isDarkMode
-                      ? 'hover:bg-gray-700 hover:text-white'
+                      ? 'hover:text-white'
                       : 'hover:bg-gray-100 hover:text-blue-700'
                   }`}
                 >

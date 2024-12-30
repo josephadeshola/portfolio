@@ -93,8 +93,8 @@ const Contact = () => {
         <ul className="mt-4 space-y-2">
           <li>
             Email:
-            <a href="josephay125d@gmail.com" className="text-yellow-500">
-              your-email@example.com
+             <a href="josephay125d@gmail.com" className="text-yellow-500">
+              josephay125d@gmail.com
             </a>
           </li>
           <li>

@@ -12,37 +12,83 @@ import "../../src/Project.css";
 const projects = {
   newProjects: [
     {
-      title: "New Project 1",
+      img:"src/assets/Foodieorder.png",
+      title: "Foodie Order",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      link: "/new-project-1",
+      link: "https://my-restaurant-three.vercel.app/",
     },
     {
-      title: "New Project 2",
+      img:"src/assets/joblist.png",
+      title: "Job Listing Application",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      link: "https://joblisting-project.vercel.app/",
+    },
+    {
+        img:"src/assets/musicapp.png",
+      title: "Music Application",
       description:
         "Dolorum autem eos, blanditiis praesentium sunt exercitationem.",
-      link: "/new-project-2",
+      link: "https://drc-music-app-vutw.vercel.app/",
+    },
+    {
+        img:"src/assets/bookyourstay.png",
+      title: "Hotel Booking Application",
+      description:
+        "Dolorum autem eos, blanditiis praesentium sunt exercitationem.",
+      link: "https://book-your-stay-kohl.vercel.app/",
     },
   ],
   oldProjects: [
     {
-      title: "Old Project 1",
+        img:"src/assets/switchrisk.png",
+      title: "switchrisk",
       description:
         "Perspiciatis, magnam blanditiis quaerat eveniet in reiciendis.",
-      link: "/old-project-1",
+      link: "https://switch-risk.vercel.app/",
     },
     {
-      title: "Old Project 2",
+        img:"src/assets/weatherapp.png",
+      title: "Weather Application",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
-      link: "/old-project-2",
+      link: "https://weatherapp-two-eta.vercel.app/",
+    },
+    {
+        img:"src/assets/Screenshot 2024-12-27 153916.png",
+      title: "Vans Life",
+      description:
+        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+      link: "https://react-test-tau-five.vercel.app/",
+    },
+    {
+        img:"src/assets/hyra.png",
+      title: "Hyra",
+      description:
+        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+      link: "https://hyra-tau.vercel.app/",
+    },
+    {
+        img:"src/assets/crown.png",
+      title: "Crown Wealth Institute",
+      description:
+        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+      link: "https://angular-text-tz1j.vercel.app/",
+    },
+    {
+        img:"src/assets/recipes.png",
+      title: "Recipies",
+      description:
+        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+      link: "https://first-vue-omega.vercel.app/recipes",
     },
   ],
   currentProjects: [
     {
-      title: "Current Project 1",
+        img:"src/assets/socialSync.png",
+      title: "SocialSync ",
       description:
-        "Dignissimos accusantium necessitatibus amet, excepturi eius debitis.",
-      link: "/current-project-1",
+        "SocialSync for post and contenting scheduling",
+      link: "https://socialsync-project.vercel.app/",
     },
     {
       title: "Current Project 2",
@@ -69,12 +115,12 @@ const Project = () => {
         className="my-4"
       >
         {categoryProjects.map((project, index) => (
-          <SwiperSlide key={index}>
-            <div className="p-14 rounded-lg shadow-md dark:hover:bg-gray-700 cursor-pointer">
+          <SwiperSlide className="" key={index}>
+            <div className="md:p-14 p-0 rounded-lg shadow-md dark:hover:bg-gray-700 cursor-pointer">
               <img
-                src={image}
+                src={project.img}
                 alt="project"
-                className="w-full h-48 object-cover rounded-md"
+                className="w-full h-64 object-cover rounded-md"
               />
               <h3 className="text-xl font-bold text-gray-800 dark:text-white mt-4">
                 {project.title}

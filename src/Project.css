@@ -11,9 +11,11 @@
 }
 
 .swiper-button-next {
+  height: 1vh;
   right: 10px; 
 }
 
 .swiper-button-prev {
+  height: 1vh;
   left: 10px; 
 }
