@@ -95,8 +95,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/resume"
                   className={`block py-2 px-3 rounded md:p-0 ${
                     isDarkMode
                       ? 'hover:text-white'
@@ -104,7 +104,7 @@ const Navbar = () => {
                   }`}
                 >
                   Resume
-                </a>
+                </Link>
               </li>
               <li>
                 <Link
