@@ -18,20 +18,20 @@ const projects = {
       link: "https://my-restaurant-three.vercel.app/",
     },
     {
-      img:"../assets/joblist.png",
+      img:ProjectImages.jobList,
       title: "Job Listing Application",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       link: "https://joblisting-project.vercel.app/",
     },
     {
-        img:"../assets/musicapp.png",
+        img:ProjectImages.musicApp,
       title: "Music Application",
       description:
         "Dolorum autem eos, blanditiis praesentium sunt exercitationem.",
       link: "https://drc-music-app-vutw.vercel.app/",
     },
     {
-        img:"../assets/bookyourstay.png",
+        img:ProjectImages.bookYourStay,
       title: "Hotel Booking Application",
       description:
         "Dolorum autem eos, blanditiis praesentium sunt exercitationem.",
@@ -40,42 +40,42 @@ const projects = {
   ],
   oldProjects: [
     {
-        img:"../assets/switchrisk.png",
+        img:ProjectImages.switchRisk,
       title: "switchrisk",
       description:
         "Perspiciatis, magnam blanditiis quaerat eveniet in reiciendis.",
       link: "https://switch-risk.vercel.app/",
     },
     {
-        img:"../assets/weatherapp.png",
+        img:ProjectImages.weatherApp,
       title: "Weather Application",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
       link: "https://weatherapp-two-eta.vercel.app/",
     },
     {
-        img:"../assets/Screenshot 2024-12-27 153916.png",
+        img:ProjectImages.vansLife,
       title: "Vans Life",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
       link: "https://react-test-tau-five.vercel.app/",
     },
     {
-        img:"../assets/hyra.png",
+        img:ProjectImages.hyra,
       title: "Hyra",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
       link: "https://hyra-tau.vercel.app/",
     },
     {
-        img:"../assets/crown.png",
+        img:ProjectImages.crownWealth,
       title: "Crown Wealth Institute",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
       link: "https://angular-text-tz1j.vercel.app/",
     },
     {
-        img:"../assets/recipes.png",
+        img:ProjectImages.recipes,
       title: "Recipies",
       description:
         "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
@@ -84,14 +84,14 @@ const projects = {
   ],
   currentProjects: [
     {
-        img:"../assets/socialSync.png",
+        img:ProjectImages.socialSync,
       title: "SocialSync ",
       description:
         "SocialSync for post and contenting scheduling",
       link: "https://socialsync-project.vercel.app/",
     },
     {
-      title: "Current Project 2",
+      title: "Drc Data plug",
       description: "Sed nam eum, dolore sunt, exercitationem suscipit.",
       link: "/current-project-2",
     },
