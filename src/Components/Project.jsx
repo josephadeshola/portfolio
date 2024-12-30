@@ -14,27 +14,27 @@ const projects = {
     {
       img:ProjectImages.foodieOrder,
       title: "Foodie Order",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      description: "A sleek restaurant ordering platform that allows users to explore menus, place orders, and make reservations seamlessly.",
       link: "https://my-restaurant-three.vercel.app/",
     },
     {
       img:ProjectImages.jobList,
       title: "Job Listing Application",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      description: "A dynamic platform for job seekers to search and apply for job opportunities, with filters for location, role, and industry.",
       link: "https://joblisting-project.vercel.app/",
     },
     {
         img:ProjectImages.musicApp,
       title: "Music Application",
       description:
-        "Dolorum autem eos, blanditiis praesentium sunt exercitationem.",
+        "A beautifully designed music streaming platform featuring playlists, favorite tracks, and personalized recommendations.",
       link: "https://drc-music-app-vutw.vercel.app/",
     },
     {
         img:ProjectImages.bookYourStay,
       title: "Hotel Booking Application",
       description:
-        "Dolorum autem eos, blanditiis praesentium sunt exercitationem.",
+        "A robust application to browse, compare, and book hotel stays, with features like room previews and customer reviews.",
       link: "https://book-your-stay-kohl.vercel.app/",
     },
   ],
@@ -43,42 +43,42 @@ const projects = {
         img:ProjectImages.switchRisk,
       title: "switchrisk",
       description:
-        "Perspiciatis, magnam blanditiis quaerat eveniet in reiciendis.",
+        "A platform designed to assess, evaluate, and manage risks effectively for businesses and individuals.",
       link: "https://switch-risk.vercel.app/",
     },
     {
         img:ProjectImages.weatherApp,
       title: "Weather Application",
       description:
-        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+        "A simple and efficient app to check real-time weather updates, including temperature, forecasts, and wind conditions.",
       link: "https://weatherapp-two-eta.vercel.app/",
     },
     {
         img:ProjectImages.vansLife,
       title: "Vans Life",
       description:
-        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+        "A lifestyle-focused platform offering insights and services for van living enthusiasts, from customization to community connections.",
       link: "https://react-test-tau-five.vercel.app/",
     },
     {
         img:ProjectImages.hyra,
       title: "Hyra",
       description:
-        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+        "A modern rental application for finding, listing, and managing rental properties with ease.",
       link: "https://hyra-tau.vercel.app/",
     },
     {
         img:ProjectImages.crownWealth,
       title: "Crown Wealth Institute",
       description:
-        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+        "A knowledge-sharing platform offering courses, certifications, and resources for financial literacy and wealth management.",
       link: "https://angular-text-tz1j.vercel.app/",
     },
     {
         img:ProjectImages.recipes,
       title: "Recipies",
       description:
-        "Nobis officia ipsa deleniti illo perferendis commodi porro dolor fuga.",
+        "A visually appealing app for discovering, saving, and sharing your favorite recipes with friends and family.",
       link: "https://first-vue-omega.vercel.app/recipes",
     },
   ],
@@ -87,7 +87,7 @@ const projects = {
         img:ProjectImages.socialSync,
       title: "SocialSync ",
       description:
-        "SocialSync for post and contenting scheduling",
+        "A comprehensive social media scheduling tool for planning, organizing, and publishing content across multiple platforms.",
       link: "https://socialsync-project.vercel.app/",
     },
     {

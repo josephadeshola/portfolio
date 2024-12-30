@@ -118,6 +118,7 @@ const Navbar = () => {
                   Contact
                 </Link>
               </li>
+              
               <li>
                 <div
                   onClick={toggleDarkMode}
