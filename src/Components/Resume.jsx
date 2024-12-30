@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume = () => {
   const handleDownloadResume = () => {
-    const resumeUrl = 'src/assets/ADESHOLA AYOMIDE CV.pdf';
+    const resumeUrl = 'ADESHOLA AYOMIDE CV.pdf';
     window.open(resumeUrl, '_blank');
   };
 
@@ -10,7 +10,6 @@ const Resume = () => {
     <div className="p-6 mt-16 md:w-3/4 mx-auto">
       <h1 className="text-4xl font-bold text-center mb-8">Resume</h1>
       
-      {/* Personal Information */}
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Personal Information</h2>
         <p className="text-lg">
@@ -21,7 +20,6 @@ const Resume = () => {
         </p>
       </section>
 
-      {/* Skills */}
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">Skills</h2>
         <ul className="list-disc list-inside text-lg">
