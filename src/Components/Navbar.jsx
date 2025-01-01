@@ -66,7 +66,7 @@ const Navbar = () => {
             <ul
               className={`font-medium flex flex-col p-4 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ${
                 isDarkMode
-                  ? 'bg-black border-gray-700 md:bg-transparent text-white'
+                  ? 'bg-black border-gray-700 text-underline md:bg-transparent text-white'
                   : 'bg-white border-gray-100 md:bg-transparent text-black'
               }`}
             >
