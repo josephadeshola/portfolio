@@ -68,6 +68,27 @@ const projects = {
       link: "https://hyra-tau.vercel.app/",
     },
     {
+        img:ProjectImages.todo,
+      title: "Task management app (Todo)",
+      description:
+        "A task management app.",
+      link: "https://adeshola-task-reminder.netlify.app/",
+    },
+    {
+        img:ProjectImages.printivo,
+      title: "printivo website",
+      description:
+        "website clone (printivo)",
+      link: "https://printivo-clone.netlify.app/",
+    },
+    {
+        img:ProjectImages.ecommerce,
+      title: "Doc-buy",
+      description:
+        "E-commerce website for wears shopping",
+      link: "https://dorc-pay.netlify.app/productpage.html",
+    },
+    {
         img:ProjectImages.crownWealth,
       title: "Crown Wealth Institute",
       description:
@@ -80,6 +101,34 @@ const projects = {
       description:
         "A visually appealing app for discovering, saving, and sharing your favorite recipes with friends and family.",
       link: "https://first-vue-omega.vercel.app/recipes",
+    },
+    {
+        img:ProjectImages.bmiCalculator,
+      title: "Bmi Calculator",
+      description:
+        "Bmi Calculator.",
+      link: "https://bmigradingsystem.netlify.app/",
+    },
+    {
+        img:ProjectImages.gradingSystem,
+      title: "Grading System",
+      description:
+        "Grading system.",
+      link: "https://schoolgradingsystem.netlify.app/",
+    },
+    {
+        img:ProjectImages.calculator,
+      title: "Calculator",
+      description:
+        "Calculator.",
+      link: "https://problemsolve.netlify.app/",
+    },
+    {
+        img:ProjectImages.lightingBulb,
+      title: "Lighting bulb",
+      description:
+        "Lighting bulb",
+      link: "https://light-125d.netlify.app/",
     },
   ],
   currentProjects: [

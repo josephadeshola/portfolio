@@ -9,6 +9,13 @@ import hyra from "./src/assets/hyra.png";
 import crownWealth from "./src/assets/crown.png";
 import recipes from "./src/assets/recipes.png";
 import socialSync from "./src/assets/socialSync.png";
+import todo from "./src/assets/todo.png"
+import printivo from "./src/assets/printivo.png"
+import ecommerce from "./src/assets/e-commerce.png"
+import bmiCalculator from "./src/assets/bmicalculator.png"
+import gradingSystem from "./src/assets/gradingsystem.png"
+import lightingBulb from "./src/assets/calculator.png"
+import calculator from "./src/assets/lightingbulb.png"
 
 const ProjectImages = {
     foodieOrder,
@@ -22,6 +29,14 @@ const ProjectImages = {
     crownWealth,
     recipes,
     socialSync,
+    todo,
+    printivo,
+    ecommerce,
+    bmiCalculator,
+    gradingSystem,
+    calculator,
+    lightingBulb
+
 };
 
 export default ProjectImages;
