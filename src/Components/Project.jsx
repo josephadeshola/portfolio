@@ -179,6 +179,7 @@ const Project = () => {
               </p>
               <Link
                 to={project.link}
+                target="_blank"
                 className="text-yellow-300 hover:text-yellow-500 mt-2 inline-block"
               >
                 View Project
