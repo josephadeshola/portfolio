@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import image from "../assets/myimage.jpeg";
+import image from "../assets/image.png";
+// import image from "../assets/myimage.jpeg";
 import aboutImage from "../assets/b14442d7-1158-4a88-aecf-a21cacea1653.jpeg";
 import { Link } from "react-router-dom";
 import { FaArrowAltCircleUp } from "react-icons/fa";
