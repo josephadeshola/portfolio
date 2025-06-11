@@ -1,28 +1,28 @@
 import React from "react";
+import { FaCode, FaShoppingCart, FaPaintBrush, FaCogs, FaWordpress, FaLaptopCode } from "react-icons/fa";
 
 const services = [
-  { title: "Web Development", desc: "Creating responsive websites with latest technologies." },
-  { title: "E-Commerce Development", desc: "Custom e-commerce solutions tailored to your needs." },
-  { title: "Website Design", desc: "Modern and clean UI/UX designs." },
-  { title: "Custom Web Dev", desc: "Tailored web applications for specific client needs." },
-  { title: "CMS", desc: "Custom WordPress, Joomla, and more." },
-  { title: "Web App Development", desc: "Modern web apps using powerful tools and frameworks." },
+  { icon: <FaCode />, title: "Web Development", desc: "Creating responsive websites with the latest technologies." },
+  { icon: <FaShoppingCart />, title: "E-Commerce Development", desc: "Custom e-commerce solutions tailored to your needs." },
+  { icon: <FaPaintBrush />, title: "Website Design", desc: "Modern and clean UI/UX designs." },
+  { icon: <FaCogs />, title: "Custom Web Dev", desc: "Tailored web applications for specific client needs." },
+  { icon: <FaWordpress />, title: "CMS", desc: "Custom WordPress, Joomla, and more." },
+  { icon: <FaLaptopCode />, title: "Web App Development", desc: "Modern web apps using powerful tools and frameworks." },
 ];
 
 const Services = () => {
   return (
-    <section className="py-12 px-6 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold mb-8">Services</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <section className="py-16 px-6 max-w-7xl mx-auto">
+      <h2 className="text-4xl font-bold text-center text-orange-500 mb-12">What I Offer</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {services.map((service, idx) => (
           <div
             key={idx}
-            className={`p-6 rounded-lg border border-gray-700 ${
-              service.title === "Web App Development" ? "bg-orange-500 text-white" : "bg-[#1a1a1a]"
-            }`}
+            className="bg-white/10 border border-orange-500 backdrop-blur-md shadow-md p-6 rounded-2xl text-white hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105"
           >
+            <div className="text-3xl text-orange-400 mb-4">{service.icon}</div>
             <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-            <p className="text-sm text-gray-400">{service.desc}</p>
+            <p className="text-gray-300">{service.desc}</p>
           </div>
         ))}
       </div>

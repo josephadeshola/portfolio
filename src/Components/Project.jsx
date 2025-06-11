@@ -268,8 +268,8 @@ const projects = [
 
 const Project = () => {
   return (
-    <section className="py-12 px-6 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold mb-8">Our Projects</h2>
+    <section className="py-10 px-6 max-w-7xl mx-auto">
+      <h2 className="text-4xl font-bold text-start text-orange-500 mb-7">My Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {projects.map((proj, idx) => (
           <div key={idx} className="bg-[#1a1a1a] p-4 rounded-lg hover:shadow-lg transition">
