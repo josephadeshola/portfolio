@@ -65,7 +65,7 @@ const Home = () => {
         <img
           src={profileImage}
           alt="Profile"
-          className="md:w-60 sm:w-52 w-48  md:h-60 h-48  sm:h-52 rounded-full object-cover mb-6 border-4 border-orange-500 shadow-lg"
+  className="md:w-60 sm:w-52 w-48 md:h-60 h-48 sm:h-52 rounded-full object-cover mb-6 border-4 border-orange-500 shadow-lg rotate-45"
         />
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Adeshola Ayomide</h1>
         <p className="mt-2 text-lg text-gray-400">
