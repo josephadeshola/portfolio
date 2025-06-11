@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCode, FaShoppingCart, FaPaintBrush, FaCogs, FaWordpress, FaLaptopCode } from "react-icons/fa";
+import AosEff from "./Aos";
 
 const services = [
   { icon: <FaCode />, title: "Web Development", desc: "Creating responsive websites with the latest technologies." },
@@ -13,10 +14,12 @@ const services = [
 const Services = () => {
   return (
     <section className="py-16 px-6 max-w-7xl mx-auto">
-      <h2 className="text-4xl font-bold text-center text-orange-500 mb-12">What I Offer</h2>
+      <AosEff/>
+      <h2 data-aos="zoom-in" className="text-4xl font-bold text-center text-orange-500 mb-12">What I Offer</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {services.map((service, idx) => (
           <div
+            data-aos="fade-in"
             key={idx}
             className="bg-white/10 border border-orange-500 backdrop-blur-md shadow-md p-6 rounded-2xl text-white hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105"
           >

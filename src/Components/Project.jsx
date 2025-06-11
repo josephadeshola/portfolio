@@ -247,6 +247,8 @@
 // export default Project;
 import React from "react";
 import ProjectImages from "../../ProjectImages";
+import AosEff from "./Aos";
+
 
 const projects = [
   { title: "Post Scheduling website", img: ProjectImages.socialSync },
@@ -269,11 +271,12 @@ const projects = [
 const Project = () => {
   return (
     <section className="py-10 px-6 max-w-7xl mx-auto">
-      <h2 className="text-4xl font-bold text-start text-orange-500 mb-7">My Projects</h2>
+       <AosEff />
+      <h2 data-aos="fade-in" className="text-4xl font-bold text-start text-orange-500 mb-7">My Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {projects.map((proj, idx) => (
-          <div key={idx} className="bg-[#1a1a1a] p-4 rounded-lg hover:shadow-lg transition">
-            <img src={proj.img} alt={proj.title} className="rounded mb-3" />
+          <div data-aos="fade-in" key={idx} className="bg-[#1a1a1a] p-4 rounded-lg hover:shadow-lg transition">
+            <img data-aos="zoom-in" src={proj.img} alt={proj.title} className="rounded mb-3" />
             <h4 className="text-white font-semibold">{proj.title}</h4>
           </div>
         ))}
