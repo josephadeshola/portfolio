@@ -156,8 +156,8 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b bg-gray-900/80 shadow">
-  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mt-1 mx-auto px-4 py-1">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b bg-gray-900/80 shadow-md">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mt-1 mx-auto px-4 py-2 md:py-1">
     <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
       <span className="self-center animate-bounce font-bold md:text-md text-md whitespace-nowrap">
         {"<"}AYO<span className="text-orange-500">MIDE{"/>"}</span>
