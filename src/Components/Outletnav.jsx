@@ -23,10 +23,10 @@ const Outletnav = () => {
       <div className="absolute inset-0 bg-black/80 z-10" />
       <div className={isDarkMode ? "relative z-20 text-white" : "relative z-20 bg-white text-black"}>
         <Navbar onClick={toggleDarkMode} />
-        <Home />
-        <Services />
-        <Project />
-        {/* <Outlet /> */}
+        {/* <Home /> */}
+        {/* <Services /> */}
+        {/* <Project /> */}
+        <Outlet />
       </div>
     </div>
   );

@@ -206,7 +206,7 @@ const Navbar = () => {
         {['Home', 'Project', 'Resume', 'Contact'].map((item) => (
           <li key={item}>
             <Link
-              to={`/${item.toLowerCase()}`}
+              to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
               className={`block py-2 px-3 rounded md:p-0 ${
                 isDarkMode
                   ? 'hover:text-white'
@@ -233,7 +233,6 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-
       </>
   );
 };

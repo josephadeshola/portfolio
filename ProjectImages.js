@@ -16,6 +16,8 @@ import bmiCalculator from "./src/assets/bmicalculator.png"
 import gradingSystem from "./src/assets/gradingsystem.png"
 import lightingBulb from "./src/assets/calculator.png"
 import calculator from "./src/assets/lightingbulb.png"
+import gym from "./src/assets/gym.png"
+
 
 const ProjectImages = {
     foodieOrder,
@@ -35,7 +37,8 @@ const ProjectImages = {
     bmiCalculator,
     gradingSystem,
     calculator,
-    lightingBulb
+    lightingBulb,
+    gym
 
 };
 
