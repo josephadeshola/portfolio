@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import profileImage from "../assets/profileeng.jpg";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 import AosEff from "./Aos";
+import Services from "./Service";
 
 const Home = () => {
   const [typedText, setTypedText] = useState("");
@@ -125,6 +126,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Services />
 
       {showScroll && (
         <button
