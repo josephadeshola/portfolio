@@ -17,6 +17,8 @@ import gradingSystem from "./src/assets/gradingsystem.png"
 import lightingBulb from "./src/assets/calculator.png"
 import calculator from "./src/assets/lightingbulb.png"
 import gym from "./src/assets/gym.png"
+import gymweb from "./src/assets/drc-gym.png"
+
 
 
 const ProjectImages = {
@@ -38,7 +40,8 @@ const ProjectImages = {
     gradingSystem,
     calculator,
     lightingBulb,
-    gym
+    gym,
+    gymweb
 
 };
 

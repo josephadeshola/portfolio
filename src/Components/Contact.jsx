@@ -79,7 +79,7 @@ const Contact = () => {
 
         <button
           type="submit"
-          className="w-full p-3 bg-yellow-300 text-white font-semibold rounded-md hover:bg-yellow-600"
+          className="w-full p-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-yellow-600"
         >
           Send Message
         </button>
@@ -93,18 +93,18 @@ const Contact = () => {
         <ul className="mt-4 space-y-2">
           <li>
             Email:
-             <a href="josephay125d@gmail.com" className="text-yellow-500">
+             <a href="josephay125d@gmail.com" className="text-orange-500">
               josephay125d@gmail.com
             </a>
           </li>
           <li>
-            Phone: <span className="text-yellow-500">+234 8069697526</span>
+            Phone: <span className="text-orange-500">+234 8069697526</span>
           </li>
           <li>
             LinkedIn:
             <a
               href="https://www.linkedin.com/in/ayomide-a-5a4549252/"
-              className="text-yellow-500"
+              className="text-orange-500"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -115,7 +115,7 @@ const Contact = () => {
             GitHub:
             <a
               href="https://github.com/josephadeshola"
-              className="text-yellow-500"
+              className="text-orange-500"
               target="_blank"
               rel="noopener noreferrer"
             >

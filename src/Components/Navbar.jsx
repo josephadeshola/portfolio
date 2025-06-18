@@ -203,7 +203,7 @@ const Navbar = () => {
             : 'bg-white/70 border-gray-100 md:bg-transparent text-black'
         }`}
       >
-        {['Home', 'Project', 'Resume', 'Contact'].map((item) => (
+        {['Home', 'Project', 'Resume', 'Contact','Blog'].map((item) => (
           <li key={item}>
             <Link
               to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}

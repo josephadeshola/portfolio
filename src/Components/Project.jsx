@@ -38,6 +38,13 @@ const projects = {
   ],
   currentProjects: [
     {
+      img: ProjectImages.gymweb,
+      title: "Drc‑Gym Website",
+      description:
+        "Responsive gym site showcasing services, schedules, and trainer profiles.",
+      link: "https://dorcson-gym.vercel.app/",
+    },
+    {
       img: ProjectImages.socialSync,
       title: "SocialSync",
       description:
@@ -183,11 +190,10 @@ const Project = () => {
                 setStartIndex(0);
                 setDir(0);
               }}
-              className={`flex items-center gap-2 px-4 py-2 rounded-lg transition ${
-                category === key
+              className={`flex items-center gap-2 px-4 py-2 rounded-lg transition ${category === key
                   ? "bg-orange-500 text-white"
                   : "bg-gray-700 text-gray-300 hover:bg-gray-600"
-              }`}
+                }`}
             >
               {Icon} <span>{label}</span>
             </button>
